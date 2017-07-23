@@ -1,0 +1,22 @@
+doctype html
+html(lang='en')
+	head
+		title File-Metadata
+		link(rel='stylesheet', href='/static/stylesheets/style.css')
+	body
+		header
+			h1 FreeCodeCamp Project: File Metadata Microservice
+				a(href='https://github.com/anfelo/file-metadata-ms', target='_blank')  - (GitHub)
+		section.main-wrapper
+			.description
+				h2 Description:
+				p 
+					| This is an image search abstraction layer API build with Express. The API uses the Custom Search Engine from google to make the search. </br>
+					| The API has two end points, the first returns a list of objects related to the term specified as a parameter. The second end point returns a list of the latest queries made.  
+				.app-wrapper
+					.submit-file
+						form(action='' method='post' enctype='multipart/form-data')
+							input(type='file' name="fpath")
+							input(type='submit' value='Send')
+		footer
+			p &copy;2017 by anfelo
