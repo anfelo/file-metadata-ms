@@ -1,0 +1,26 @@
+{
+  "name": "file-metadata-ms",
+  "version": "1.0.0",
+  "description": "This is an app that serves a specified file metadata. This app is build with Express.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anfelo/file-metadata-ms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anfelo/file-metadata-ms/issues"
+  },
+  "homepage": "https://github.com/anfelo/file-metadata-ms#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
