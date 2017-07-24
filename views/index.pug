@@ -11,12 +11,11 @@ html(lang='en')
 			.description
 				h2 Description:
 				p 
-					| This is an image search abstraction layer API build with Express. The API uses the Custom Search Engine from google to make the search. </br>
-					| The API has two end points, the first returns a list of objects related to the term specified as a parameter. The second end point returns a list of the latest queries made.  
+					| This is a file size microservice. By provinding a file to the form below and hitting the send button, the file size, in bytes, is returned.
 				.app-wrapper
 					.submit-file
 						form(action='' method='post' enctype='multipart/form-data')
-							input(type='file' name="fpath")
-							input(type='submit' value='Send')
+							input(class='button' type='file' name="fpath")
+							input(class='button' type='submit' value='Send')
 		footer
 			p &copy;2017 by anfelo

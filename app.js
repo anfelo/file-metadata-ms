@@ -28,7 +28,6 @@ app.post('/', upload.single('fpath'), function(req, res, next) {
 	}
 	res.cookie( 'fileSize', req.file.size );
 	del(['uploads/**', '!uploads/']).then(paths => {
-		console.log('Deleted files and folders:\n', paths.join('\n'));
 		res.redirect( '/file-size' );
 	});
 });
